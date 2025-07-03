@@ -14,3 +14,6 @@ const parent = React.createElement(
     )
   ]
 );
+const root = ReactDom.createElement(document.getElementById("root"));
+
+root.render(parent);
